@@ -1,0 +1,14 @@
+@use "styles/variables" as *;
+
+.container{
+  // padding: 0 320px;
+
+  &__titulo{
+    font-family: $fontDestaque;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 76.51px;
+    color: $corSecundaria;
+    margin-bottom: 70px;
+  }
+}

@@ -1,0 +1,82 @@
+@use "styles/variables" as *;
+
+.containerIntroduction{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin:0px 320px 0px 320px;
+    
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+}
+.containerTexto{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.container1 h1{
+    font-family: $fontDestaque;
+    font-size: 48px;
+    font-weight: 700;
+    color:$corPrimaria;
+    width: 505px;
+    height: 59px;
+    top: 245px;
+    left: 345px;
+    margin-top: 130px;
+    
+}
+.container1 p{
+    width: 505px;
+    height: 66px;
+    top: 320px;
+    left: 345px;
+    font-family: $fontPrimaria;
+    font-size: 18px;
+
+}
+.container1 span{
+    font-weight: 700;
+}
+
+.container2 img{
+    width: 739px;
+    height: 444px;
+    top: 170px;
+    left: 862px;
+    margin-top: 55px;
+ 
+}
+
+.btSaibaMais {
+    width: 335px;
+    height: 50px;
+    top: 426px;
+    left: 345px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: $corTerciaria;
+    margin-bottom: 276px;
+    transition: transform 0.1s ease, background-color 0.1s ease;
+
+    &:hover {
+        background-color: $corPrimaria;
+        transform: scale(1.05);
+    }
+}
+
+.labelSaibaMais{
+    font-family: $fontDestaque;
+    font-size: 20px;
+    font-weight: 700;
+    width: 97px;
+    height: 32px;
+    color: $branco100;
+    
+
+}
